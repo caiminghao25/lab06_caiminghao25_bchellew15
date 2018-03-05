@@ -121,9 +121,6 @@ void addIntToEndOfList(LinkedList *list, int value) {
     list -> tail -> next = node;
     list -> tail = node;
   }
-  
-
-
 }
 
 // Precondition: A valid linked-list on the heap and an integer value
@@ -143,6 +140,4 @@ void addIntToStartOfList(LinkedList *list, int value) {
     node -> next = list -> head;
     list -> head  = node;
   }
-  
-
 }
